@@ -1,0 +1,28 @@
+{
+  "name": "erc20tokenshowcase",
+  "version": "1.0.0",
+  "description": "erc20tokenshowcase",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "sergei_banov",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.11",
+    "@openzeppelin/contracts": "^5.0.1",
+    "alchemy-sdk": "^3.1.2",
+    "dotenv": "^16.4.5",
+    "dotenv-safe": "^9.0.0",
+    "ethers": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv-safe": "^8.1.6"
+  }
+}

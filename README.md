@@ -1,66 +1,33 @@
-## Foundry
+# ERC20ShowCase
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+ERC20ShowCase demonstrates the development, deployment, and interaction with ERC20 token smart contract. It's built using modern blockchain tools and includes a frontend for user interaction.
 
-Foundry consists of:
+## Features
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- **Foundry Toolchain**: Employs Foundry for smart contract development, testing, and deployment.
 
-## Documentation
+- **Advanced ERC20 Contract**: Implements the ERC20 token standard, incorporating additional industry standards for enhanced functionality.
 
-https://book.getfoundry.sh/
+- **Ethers.js**: Uses ethers.js for interacting with the Ethereum blockchain, specifically on the Sepolia Testnet.
 
-## Usage
+- **Infura Deployment**: Utilizes Infura for efficient and reliable smart contract deployment to the Ethereum network.
 
-### Build
+- **React.js Frontend**: Includes a basic React.js frontend for easy interaction with the smart contract, showcasing DApp development.
 
-```shell
-$ forge build
-```
+## Getting Started
 
-### Test
+1. Clone the repo.
+2. Create a .env file in the root directory of your project by copying the provided .env.example file. Populate the .env file with the necessary environment variables.
+3. Install dependencies: `npm install`.
+4. Compile the contract: `forge build`.
+5. Deploy to Sepolia Testnet using provided scripts.
+6. Launch the frontend: `npm start`.
 
-```shell
-$ forge test
-```
+## Contributions
 
-### Format
+Contributions are welcome! Feel free to submit issues and pull requests.
 
-```shell
-$ forge fmt
-```
+## License
 
-### Gas Snapshots
+Licensed under the [MIT License](LICENSE).
 
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
